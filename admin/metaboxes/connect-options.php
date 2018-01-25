@@ -64,8 +64,8 @@
 		 */
 		public function configure($scripts, $styles)
 		{
-			$styles->add(BIZPANDA_SIGNIN_LOCKER_URL . '/admin/assets/css/connect-options.010000.css');
-			$scripts->add(BIZPANDA_SIGNIN_LOCKER_URL . '/admin/assets/js/connect-options.010000.js');
+			$styles->add(BIZPANDA_SIGNIN_LOCKER_URL . '/admin/assets/css/connect-options.css');
+			$scripts->add(BIZPANDA_SIGNIN_LOCKER_URL . '/admin/assets/js/connect-options.js');
 
 			do_action('opanda_connect_options_assets', $scripts, $styles);
 		}
